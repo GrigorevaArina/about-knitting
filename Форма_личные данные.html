@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav" id="up">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="index.html#down"><img src="https://img.icons8.com/glyph-neue/64/FFFFFF/like--v1.png" height="16"></a></li>
+      <li><a href="Последние%20работы.html">Последние работы</a></li>
+      <li><a href="Мастер-класс.html">Мастер-класс месяца</a></li>
+      <li><a href="https://vk.com/id220860689" target="_blank">Контакты</a></li>
+      <li><a href="https://grigorevaarina.github.io/passport/" target="_self">Подробнее о проекте</a></li>
+      <li><a class="active" href="Форма_личные%20данные.html">Регистрация</a></li>
+    </ul>
+</div>
+
+<div class="forma">
+    <table style="margin-left: 340px; ">
+        <tr>
+            <td style="vertical-align: top;" width="400">
+                <form action="https://www.ya.ru" id="UserEnter" name="UserEnter" target="_blank">
+                    <fieldset>
+                        <legend> Основные сведения </legend>
+                        <p>Имя: <input required type="Text" name="name" size="20" value="Арина"></p>
+                        <p>Фамилия: <input type="Text" name="surname" size="20" value="Григорьева"></p>
+                        <p>Телефон: <input type="Text" name="phone" size="20" value="89371252006"></p>
+                        <p>Email: <input type="Text" name="email" size="20" value="arsegrigoreva@edu.hse.ru"></p>
+                        <p>Дата рождения: <input type="Date" name="date" size="20" value="2006-08-15"> </p>
+                        <p>Пароль: <input type="password" name="password" size="20" value="000000"></p>
+                    </fieldset>
+                    <p>
+                        <input type="Submit" name="submit" value="Отправить" style="padding: 5px 5px 5px 5px; font-size: 1em; color: #4B0082; font-family: Times New Roman;">
+                        <input type="Reset" name="Reset" value="Отчистить" style="padding: 5px 5px 5px 5px; font-size: 1em; color: #4B0082; font-family: Times New Roman;"> </font>
+                    </p>
+                </form>
+            </td>
+            <td>
+                <form action="https://www.ya.ru" id="UserEnter" name="UserEnter" target="_blank">
+                    <fieldset>
+                        <legend> Дополнительные сведения </legend>
+                        <p>
+                            Часто ли Вы вяжете по Вашему мнению?
+                            <input type="Radio" name="frequency" value="yes"> Да
+                            <input type="Radio" name="frequency" value="no"> Нет
+                        </p>
+                        <p>
+                            Чем Вы умеете вязать?<br>
+                            <input type="Checkbox" name="hook" value="">Крючком<br>
+                            <input type="Checkbox" name="knitting needles" value="">Спицами<br>
+                        </p>
+                        <p>
+                            Когда Вы вяжете:
+                            <select name="time">
+                                <option value="" checked=""></option>
+                                <option value="morning">Утром</option>
+                                <option value="day">Днём</option>
+                                <option value="evening">Вечером</option>
+                                <option value="night">Ночью</option>
+                            </select>
+                        </p>
+                        <p>
+                            Почему Вы вяжете? <br>
+                            <textarea cols="80" rows="2" name="question"></textarea>
+                        </p>
+
+                        <p>Оцените свой уровень от 0 до 10: <input type="number" name="level" size="7" value="" min="0" max="10"></p>
+                    </fieldset>
+                    <p>
+                        <input type="Submit" name="submit" value="Отправить" style="padding: 5px 5px 5px 5px; font-size: 1em; color: #4B0082; font-family: Times New Roman;">
+                        <input type="Reset" name="Reset" value="Отчистить" style="padding: 5px 5px 5px 5px; font-size: 1em; color: #4B0082; font-family: Times New Roman;"> </font>
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+
+</html>

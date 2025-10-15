@@ -1,0 +1,78 @@
+body {
+        background-color: #e2bef7;
+        font-family: Times New Roman;
+        text-align: center;
+        font-size: 1.15em;
+        color: #4B0082;
+
+      }
+
+fieldset {
+               border: none;
+         }
+
+legend{
+        font-weight: 700;
+        font-size: 1.2em;
+}
+
+input, option, textarea {
+        background-color: #f8e8fd;
+}
+
+.nav{
+
+
+        ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #4B0082; // цвет панели
+              top: 0;
+              width: 100%
+            }
+
+        li {
+          float: left; //в одну строку
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #D197F2; // цвет наведения
+        }
+
+        .active {
+          background-color: #008247; // цвет текущей
+        }
+
+}
+
+.forma{
+    margin-top: 50px;
+    margin-left: -100px;
+}
+
+.style1{
+    list-style-type: 1;
+}
+.style2{
+    list-style-type: circle;
+}
+
+figure {
+    img { // картинка по центру фигуры
+      display: block;
+      margin: auto;
+    }
+  padding: 5px;
+  max-width: 900px;
+  margin: auto; // фигура по центру
+}
